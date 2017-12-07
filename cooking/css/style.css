@@ -325,14 +325,14 @@ p {
 }
 .fh5co-main-nav .fh5co-menu-1 {
   text-align: right;
-  width: 40.33%;
+  width: 33.33%;
 }
 .fh5co-main-nav .fh5co-menu-1 a {
   vertical-align: middle;
 }
 .fh5co-main-nav .fh5co-logo {
   text-align: center;
-  width: 19.33%;
+  width: 33.33%;
   font-size: 40px;
   font-family: "Playfair Display", serif;
   font-weight: 700;
@@ -345,7 +345,7 @@ p {
 }
 .fh5co-main-nav .fh5co-menu-2 {
   text-align: left;
-  width: 40.33%;
+  width: 33.33%;
 }
 
 .fh5co-heading .heading {
@@ -826,6 +826,30 @@ p {
   left: 0;
   width: 64px;
   height: 45px;
+}
+#fh5co-menus .fh5co-food-menu h2.fh5co-veg {
+  padding-left: 80px;
+}
+#fh5co-menus .fh5co-food-menu h2.fh5co-veg:before {
+  background: url(../images/0401-vegan.png) no-repeat;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 64px;
+}
+#fh5co-menus .fh5co-food-menu h2.fh5co-fish {
+  padding-left: 80px;
+}
+#fh5co-menus .fh5co-food-menu h2.fh5co-fish:before {
+  background: url(../images/seafood.png) no-repeat;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 71px;
+  height: 50px;
 }
 #fh5co-menus .fh5co-food-menu ul {
   padding: 0;
