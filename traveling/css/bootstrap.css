@@ -369,7 +369,24 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  border:5px solid black;
 }
+
+.img-responsive-vert {
+	margin-top: 300px;
+	margin-bottom: 300px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border:5px solid black;
+  -webkit-transform: rotate(90deg);
+   moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+ul.places {list-style-type: initial;}
 
 .img-rounded {
   border-radius: 6px;
@@ -397,7 +414,7 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #6b6b6b;
 }
 
 .sr-only {

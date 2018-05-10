@@ -485,6 +485,7 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
 .fh5co-testimonial .item p {
   font-size: 30px;
 }
@@ -1240,5 +1241,6 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 .js .animate-box {
   opacity: 0;
 }
+
 
 /*# sourceMappingURL=style.css.map */
