@@ -386,7 +386,7 @@ img {
     transform: rotate(90deg);
 }
 
-ul.places {list-style-type: initial;}
+ul.places {list-style-type: none;}
 
 .img-rounded {
   border-radius: 6px;
@@ -925,8 +925,8 @@ pre code {
 }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .row:before, .row:after {
   content: " ";
